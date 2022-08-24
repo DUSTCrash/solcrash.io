@@ -11,7 +11,7 @@ const Home = () => {
         <div className="branding-container">
 
             <img className="home-logo" src="https://i.imgur.com/JOliLwm.png" alt="logo"></img>
-            <h1>solcrash.io</h1>
+            <h1>solcrash-io.vercel.app</h1>
             <h3>The most trusted gaming establishment on Solana</h3>
             <a href="/play"><button className="play-now">PLAY NOW</button></a> <br></br>
 
