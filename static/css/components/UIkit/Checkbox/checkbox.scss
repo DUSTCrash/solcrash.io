@@ -1,0 +1,31 @@
+.solcrash-checkbox {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease 0s;
+
+  &.checked {
+    background-color: #a3ffc8;
+    border: 3px solid #18aa6d;
+    color: #a3ffc8;
+    &:hover {
+      background-color: #bbffd6;
+    }
+  }
+
+  &.not-checked {
+    background-color: #3b4c5a;
+    border: 3px solid #526574;
+    &:hover {
+      background-color: #24303a;
+    }
+  }
+
+  img {
+    width: 18px;
+  }
+}

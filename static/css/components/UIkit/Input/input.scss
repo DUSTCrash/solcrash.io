@@ -1,0 +1,48 @@
+.solcrash-input {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  input {
+    width: 100%;
+    background: #6e7f8e;
+    border: 1px solid #405160;
+    padding: 5px 8px;
+    outline: none;
+    color: #fff;
+    font-weight: 700;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  input:focus {
+    box-shadow: 0px 0px 3px rgba(25, 251, 155, 0.5);
+  }
+  input::placeholder {
+    color: #455566;
+  }
+
+  span.solcrash-input-label {
+    background-color: #405160;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #405160;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+.solcrash-input.input-auto-mode {
+  input {
+    padding: 3px 8px;
+  }
+
+  span.solcrash-input-label {
+    padding: 3px 10px;
+  }
+}

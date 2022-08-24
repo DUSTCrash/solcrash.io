@@ -1,0 +1,63 @@
+.solcrash-page-container {
+    overflow: hidden;
+}
+
+.leaderboards-loader {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.leaderboards {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px auto 100px auto;
+    width: 80vw;
+    height: 70%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    column-gap: 20px;
+    padding: 0 20px;
+}
+
+.pfp-column {
+    width: 80px;
+}
+
+.leaderboard-pfp {
+    width: 40px;
+    border-radius: 3px;
+}
+
+.leaderboard h3 {
+    color: #18aa6d;
+}
+
+.leaderboards table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 40vw;
+    height: 100px;
+    overflow-y: auto;
+}
+
+.leaderboards thead {
+    background: #344757;
+}
+
+.leaderboards table td,
+.leaderboards table th {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    color: #fdfdfd;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.leaderboards table tr:nth-child(even) {
+    background-color: #202f3c;
+}

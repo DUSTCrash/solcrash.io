@@ -1,0 +1,80 @@
+html,
+body {
+  width: 100vw;
+  height: 100%;
+
+  &::-webkit-scrollbar,
+  *::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  &::-webkit-scrollbar-track,
+  *::-webkit-scrollbar-track {
+    background: #1a2733;
+    width: 7px;
+    height: 7px;
+  }
+
+  &::-webkit-scrollbar-thumb,
+  *::-webkit-scrollbar-thumb {
+    background: #2e4153;
+  }
+
+  * {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+body {
+  @media screen and (max-width: 780px) {
+    overflow: auto;
+  }
+}
+
+.fa-twitter {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #1DA1F2;
+  cursor: pointer;
+  vertical-align: sub;
+}
+
+input {
+  display: block;
+  width: 94%;
+  height: 34px;
+  padding: 0vh 10px;
+  background: #374c5f;
+  border: 2px solid #2e4153;
+  border-radius: 3px;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px !important;
+  color: #fdfdfd;
+}
+
+::placeholder {
+  color: #8d93b6;
+}
+
+.solcrash-page-container {
+  width: 100%;
+  height: calc(100vh - 65px);
+  background-color: #101921;
+  padding: 7px;
+
+  .solcrash-screen-title {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .solcrash-screen-subtitle {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    display: block;
+  }
+}

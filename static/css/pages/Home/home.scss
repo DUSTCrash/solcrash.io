@@ -1,0 +1,131 @@
+.solcrash-page-container {
+    scroll-behavior: smooth;
+}
+
+.branding-container {
+    margin: 3% auto 0px auto;
+    width: 90vw !important;
+    max-width: 750px !important;
+    text-align: center;
+}
+
+.home-logo {
+    margin: 0px auto;
+    width: 8vw;
+}
+
+.branding-container h1 {
+    font-family: "Roboto Mono", sans-serif;
+    color: #18aa6d;
+}
+
+.branding-container h3 {
+    font-family: "Roboto Mono", sans-serif;
+    color: #fdfdfd;
+}
+
+.play-now {
+    margin-top: 30px !important;
+    width: 80vw !important;
+    max-width: 400px !important;
+    padding: 15px 0px !important;
+    background: #18aa6d !important;
+    border: none !important;
+    border-radius: 5px !important;
+    border-bottom: 4px solid #076e43 !important;
+    color: #fdfdfd !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+}
+
+.stats-container {
+    margin: 5% auto 0px auto;
+    max-width: 750px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fdfdfd;
+    text-align: center;
+}
+
+.home-stat {
+    display: inline-block;
+    margin: 15px;
+    width: 215px;
+}
+
+.home-stat h2 {
+    padding-bottom: 15px;
+    font-family: "Roboto Mono", sans-serif;
+    color: #fdfdfd;
+}
+
+.home-stat h4 {
+    margin-top: 20px !important;
+    color: #18aa6d;
+}
+
+.info-container {
+    margin: 50px auto 0px auto;
+    max-width: 750px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fdfdfd;
+    text-align: center;
+}
+
+.info {
+    display: inline-block;
+    margin: 15px;
+    width: 215px;
+    padding: 20px 15px;
+    background: #202f3c;
+    border-radius: 4px;
+}
+
+.info h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fdfdfd;
+    font-family: "Roboto Mono", sans-serif;
+    color: #fdfdfd;
+}
+
+.info h4 {
+    margin-top: 20px !important;
+    color: #687885;
+}
+
+a {
+    color: #18aa6d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.help-container {
+    margin: 60px auto 100px auto;
+    max-width: 750px;
+    text-align: center;
+}
+
+.help-container h2 {
+    padding-bottom: 15px;
+    font-family: "Roboto Mono", sans-serif;
+    color: #fdfdfd;
+}
+
+.help-container h4 {
+    margin-top: 20px !important;
+    color: #687885;
+}
+
+footer {
+    padding: 10px;
+    border-top: 3px solid  #202f3c;
+    text-align: center;
+}
+
+footer p {
+    color: #687885;
+    cursor: pointer;
+}

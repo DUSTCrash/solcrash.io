@@ -1,0 +1,19 @@
+.crash-game-controllers {
+  .not-connected {
+    width: 100%;
+    padding: 10px;
+    button {
+      width: 100%;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 12px;
+      color: #4e5e6b;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+}
